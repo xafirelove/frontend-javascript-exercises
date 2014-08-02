@@ -5,9 +5,6 @@ function formLetter(firstName, senderName, message)
         var finalString = stringGreeting.concat(firstName);
         finalString += ",\n\n" + message;
         finalString += "\n\n" + stringClosing + "\n\n" + senderName;
-       
-        alert(finalString);
-   
     }
 
 function sliceItAndCombineIt(bigString, startA, endA, startB, endB) 
