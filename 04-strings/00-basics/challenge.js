@@ -1,10 +1,6 @@
 function formLetter(firstName, senderName, message) 
 	{
-        stringGreeting = "Hello ";
-        stringClosing = "Sincerely,";
-        var finalString = stringGreeting.concat(firstName);
-        finalString += ",\n\n" + message;
-        finalString += "\n\n" + stringClosing + "\n\n" + senderName;
+        
     };
 
 function sliceItAndCombineIt(bigString, startA, endA, startB, endB) 
