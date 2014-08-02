@@ -1,24 +1,28 @@
-function formLetter(firstName, senderName, message) 
+module.exports.formLetter = function formLetter(firstName, senderName, message) 
 	{
-        
+		stringGreeting = "Hello ";
+		stringClosing = "Sincerely,";
+		var finalString = stringGreeting.concat(firstName);
+		finalString += ",\n\n" + message;
+		finalString += "\n\n" + stringClosing + "\n\n" + senderName;
+      
     };
 
-function sliceItAndCombineIt(bigString, startA, endA, startB, endB) 
-	{
+module.exports.sliceItAndCombineIt = function(bigString, startA, endA, startB, endB) {
+
 
 };
 
-function findFirstMatch(text, searchString) 
-	{
+module.exports.findFirstMatch = function(text, searchString) { 
+
 
 };
 
-function findLastMatch(text, searchString) 
-	{
+module.exports.findLastMatch = function(text, searchString) {
+
 
 };
 
-function substringBetweenMatches(text, searchString) 
-	{
+module.exports.substringBetweenMatches = function(text, searchString) { 
 
 };
