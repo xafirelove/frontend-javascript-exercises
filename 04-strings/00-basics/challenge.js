@@ -1,5 +1,4 @@
-//module.exports.formLetter = //
-function formLetter(firstName, senderName, message) {
+module.exports.formLetter = function formLetter(firstName, senderName, message) {
 	
 	var greeting = "Hello ";
 	var firstName = "Rob,";
