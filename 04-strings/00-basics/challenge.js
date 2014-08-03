@@ -12,7 +12,7 @@ module.exports.formLetter = function formLetter(firstName, senderName, message) 
 	var senderName = "Christian";
 	var endingStr = closing + "\n" + senderName;
 	
-	bodyStr += "\n\n" + messageStr + "\n\n";
+	meessageStr += "\n\n" + messageStr + "\n\n";
 	
 	// to here //
 	
@@ -34,7 +34,8 @@ module.exports.formLetter = function formLetter(firstName, senderName, message) 
 	// or var formLetter greetingStr.concat(messageStr, endingStr);
 	
 	// to here//
-    };
+    
+	};
 
 module.exports.sliceItAndCombineIt = function(bigString, startA, endA, startB, endB) {
 
