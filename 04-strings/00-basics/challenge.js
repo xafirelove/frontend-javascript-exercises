@@ -2,14 +2,14 @@ module.exports.formLetter = function formLetter(firstName, senderName, message) 
 	
 	//this part is okay I think?? //
 	var greeting = "Hello ";
-	var firstName = "James.";
+	// var firstName = "James.";
 	var greetingStr = greeting + firstName;
 	
 	var message = "Things are well.";
 	var messageStr = "\n\n" + message + "\n\n" 
 	
 	var closing = "Sincerely,";
-	var senderName = "Christian";
+	// var senderName = "Christian";
 	var endingStr = closing + "\n" + senderName;
 	
 	messageStr += "\n\n" + messageStr + "\n\n";
