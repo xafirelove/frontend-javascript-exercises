@@ -1,31 +1,39 @@
 module.exports.formLetter = function formLetter(firstName, senderName, message) {
-      
-	var helloStr = "Hello";
-	var greetingStr = helloStr.concat("World");
-	greetingStr; // "HelloWorld"
-	helloStr; 
 	
+	//this part is okay I think?? //
+	var greeting = "Hello ";
 	var firstName = "James.";
-	var greeting = "Hello, " + firstName;
+	var greetingStr = greeting + firstName;
 	
-	var greeting = "Hello";
-	greeting += ", James.";
-	greeting;
+	var message = "Things are well.";
+	var messageStr = "\n\n" + message + "\n\n" 
 	
-	var messageString = "Things are well."
+	var closing = "Sincerely,";
+	var senderName = "Christian";
+	var endingStr = closing + "\n" + senderName;
 	
-	var goodbyeStr = "Sincerely";
-	var endString = goodbyeString.concat("Yours");
-	endString; // "SincerelyYours"
-	goodbyeString;
+	bodyStr += "\n\n" + messageStr + "\n\n";
 	
-	var senderName = "Christian.";
-	var ending = "Sincerely, " + senderName;
+	// to here //
 	
-	var end = "Sincerely";
-	end += ", Christian.";
-	end;
+	// this is the stuff that I was playing with //
+	// bodyStr += "\n\n" + messageStr + "\n\n";
 	
+
+	// var greetingStr = helloStr.concat(firstName);
+	// greetingStr;
+	// helloStr; 
+	
+	// var greeting = "Hello, " + firstName;
+	
+	// greeting += ", James.";
+	// greeting;
+	
+	// formLetter.concat(greetingStr, messageStr, endingStr); 
+	
+	// or var formLetter greetingStr.concat(messageStr, endingStr);
+	
+	// to here//
     };
 
 module.exports.sliceItAndCombineIt = function(bigString, startA, endA, startB, endB) {
