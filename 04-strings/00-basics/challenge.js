@@ -12,7 +12,7 @@ module.exports.formLetter = function formLetter(firstName, senderName, message) 
 	var senderName = "Joe";
 	var endingStr = closing + "\n" + senderName;
 	
-	formLetter.concat(greetingStr, messageStr, endingStr);
+	greetingStr.concat(messageStr, endingStr);
 	
 	// messageStr += "\n\n" + messageStr + "\n\n";
 	
