@@ -12,7 +12,7 @@ function formLetter(firstName, senderName, message) {
 	var senderName = "Joe";
 	var closingStr = closing + "\n" + senderName;
 	
-	formLetter.write(greetingStr + messageStr + closingStr); 
+	var formStr = greetingStr + messageStr + closingStr; 
 
 	};
 	
