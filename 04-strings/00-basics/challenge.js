@@ -1,4 +1,5 @@
-module.exports.formLetter = function formLetter(firstName, senderName, message) {
+//module.exports.formLetter = //
+function formLetter(firstName, senderName, message) {
 	
 	var greeting = "Hello ";
 	var firstName = "Rob,";
@@ -11,7 +12,7 @@ module.exports.formLetter = function formLetter(firstName, senderName, message) 
 	var senderName = "Joe";
 	var closingStr = closing + "\n" + senderName;
 	
-	document.write(greetingStr + messageStr + closingStr); 
+	formLetter.write(greetingStr + messageStr + closingStr); 
 
 	};
 	
