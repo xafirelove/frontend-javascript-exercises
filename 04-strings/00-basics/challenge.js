@@ -7,7 +7,7 @@ module.exports.formLetter = function(firstName, senderName, message) {
 	
 	var message = "Take care."
 	
-	console.log("Hello " + firstName + "," + "\n\n" + message + "\n\n" + "Sincerely," + senderName);
+	console.log("Hello " + firstName + "," + "\n\n" + message + "\n\n" + "Sincerely," + "\n" senderName);
 	
 	// var greeting = "Hello ";
 	// var firstName = "Rob,";
