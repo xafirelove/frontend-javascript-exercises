@@ -1,4 +1,4 @@
-formLetter = function(firstName, senderName, message) {
+module.exports.formLetter = function(firstName, senderName, message) {
 	
 	
 	var firstName = "Rob"
