@@ -11,32 +11,10 @@ module.exports.formLetter = function formLetter(firstName, senderName, message) 
 	var senderName = "Joe";
 	var closingStr = closing + "\n" + senderName;
 	
-	var formStr = greetingStr + messageStr + closingStr; 
+	console.log("greetingStr" + "messageStr" + "closingStr")
 
 	};
 	
-	// messageStr += "\n\n" + messageStr + "\n\n";
-	
-	// to here //
-	
-	// this is the stuff that I was playing with //
-	// bodyStr += "\n\n" + messageStr + "\n\n";
-	
-
-	// var greetingStr = helloStr.concat(firstName);
-	// greetingStr;
-	// helloStr; 
-	
-	// var greeting = "Hello, " + firstName;
-	
-	// greeting += ", James.";
-	// greeting;
-	
-	// formLetter.concat(greetingStr, messageStr, endingStr); 
-	
-	// or var formLetter greetingStr.concat(messageStr, endingStr);
-	
-	// to here//
     
 
 module.exports.sliceItAndCombineIt = function(bigString, startA, endA, startB, endB) {
