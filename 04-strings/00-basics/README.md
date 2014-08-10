@@ -18,7 +18,7 @@ Ex.formLetter("James", "Richard", "Things are well.");
 ```
 
 - Complete the `sliceItAndCombineIt` function. This function should:
-    - take a string and four indices (numbers)
+    - take a string and four indices (indexes) (numbers)
     - return a new string which is the concatenation of two substrings marked by the first and second index of each pair of indices. For example:
     
 ```javascript
