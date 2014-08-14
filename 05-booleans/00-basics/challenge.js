@@ -13,7 +13,7 @@ module.exports.equalStrings = function(stringOne, stringTwo) {
 module.exports.notEqual = function(one, two) {
 	
 	if 
-		(one != two)
+		('one' != 'two')
 	
 	return(true);
 	
@@ -28,7 +28,7 @@ module.exports.inBetween = function(lower, middle, upper) {
 	
 	//inbetween(lower, middle, upper)
 	
-	if(upper >= middle >= lower)
+	if(lower < middle && middle < upper)
 	
 	return(true);
 	
