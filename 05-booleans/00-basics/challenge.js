@@ -13,7 +13,7 @@ module.exports.equalStrings = function(stringOne, stringTwo) {
 module.exports.notEqual = function(one, two) {
 	
 	if 
-		('one' != 'one')
+		('one' != two)
 	
 	return(true);
 	
