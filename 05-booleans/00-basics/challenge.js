@@ -15,11 +15,11 @@ module.exports.notEqual = function(one, two) {
 	if 
 		(one == "two")
 	
-	return(true);
+	return(false);
 	
 	else {
 		
-		return(false);
+		return(true);
 	}
 
 };
